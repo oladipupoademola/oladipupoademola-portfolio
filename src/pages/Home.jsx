@@ -11,7 +11,7 @@ const Home = () => {
 
     <div className="relative overflow-hidden ">  
     <nav className=" tablet:flex tablet:justify-start laptop:flex justify-between z-50 bg-transparent">
-        <ul className="text-[#888888] tablet:flex tablet:justify-evenly  laptop:flex laptop:justify-around mx-[20px]   gap-6 p-5 text-2xl hidden ">
+        <ul className="text-[#888888] tablet:flex tablet:justify-evenly  laptop:flex laptop:justify-around mx-[20px]  gap-6 p-5 text-2xl hidden ">
             <li class="text-[#F9F9F9] font-bold"><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Projects</a></li>
