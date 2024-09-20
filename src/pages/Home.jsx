@@ -11,7 +11,7 @@ const Home = () => {
 
     <div className="relative overflow-hidden ">  
     <nav className=" tablet:flex tablet:justify-start laptop:flex justify-between z-50 bg-transparent">
-        <ul className="text-[#888888] tablet:flex tablet:justify-evenly  laptop:flex laptop:justify-around mx-[20px]  gap-6 p-5 text-2xl hidden ">
+        <ul className="text-[#888888] tablet:flex tablet:justify-evenly  laptop:flex laptop:justify-around mx-[9%]  gap-6 p-5 text-2xl hidden ">
             <li class="text-[#F9F9F9] font-bold"><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Projects</a></li>
@@ -29,13 +29,13 @@ const Home = () => {
     </nav>
 
     {/* section 1 */}
-    <div className="flex container mx-[20px] pr-96 laptop:mx-[20px] overflow-hidden">
-        <div className="mt-20">
+    <div className="flex container mx-[10%] pr-96 laptop:mx-[10%] overflow-hidden">
+        <div className="mt-11 tablet:mt-10">
             <div className="tablet:py-5 laptop:py-5">
             <h1 className="text-[#F9F9F9]  font-semibold text-3xl tablet:text-6xl laptop:text-8xl ">My name</h1>
             <h1 className="text-[#F9F9F9]  font-semibold text-3xl tablet:text-6xl laptop:text-8xl laptop:mt-10 ">is DML</h1>
 
-            <h2 className="text-[#888888]  font-semibold w-[150px] laptop:w-[450px] tablet:w-[400px]    ">I'm  a  Software Developer and a passionate UX/UI designer with a focus on creating seamless user experiences</h2>
+            <h2 className="text-[#888888]  font-semibold w-[45%] laptop:w-[450px] tablet:w-[85%]    ">I'm  a  Software Developer and a passionate UX/UI designer with a focus on creating seamless user experiences</h2>
 
            
         </div>
@@ -55,9 +55,9 @@ const Home = () => {
 
             
 
-        <div className="absolute -top-[50px] -right-[140px] tablet:-top-[120px] tablet:-right-[170px] laptop:-top-64 laptop:-right-80 laptop:z-50 tablet:z-50 z-40  ">
+        <div className="absolute -top-[20px] -right-[870px] tablet:-top-[50px] tablet:-right-[750px] laptop:-top-[180px] laptop:-right-[500px] laptop:z-50 tablet:z-50 z-40  ">
 
-            <img className='w-[400px] tablet:w-[600px] laptop:w-full' src={profileImg} alt="" />
+            <img className='w-[30%] tablet:w-[40%] laptop:w-[70%]' src={profileImg} alt="" />
         </div>
 
         

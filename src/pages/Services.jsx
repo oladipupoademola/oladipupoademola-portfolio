@@ -1,4 +1,7 @@
+import { motion } from 'framer-motion'
 import React from 'react'
+import { fadeIn } from '../variants'
+
 
 const Services = () => {
     const img1 = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717598229/Group_2_q8smx4.png"
@@ -8,7 +11,12 @@ const Services = () => {
     
     <>
     <div className='bg-[#00030C] border border-none'>
-    <div className="mx-auto overflow-hidden">
+    <motion.div
+    variants={fadeIn("up", 0.25)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{once: false, amount: 0.25}}
+     className="mx-auto overflow-hidden">
     <h1 className="text-[#F9F9F9] text-5xl tablet:text-6xl laptop:text-6xl font-bold text-center pt-[200px]">Services</h1>
     <div className="tablet:flex tablet:justify-evenly laptop:flex laptop:justify-evenly mt-20 tablet:mt-10 laptop:mt-10">
         <div className="flex justify-center">
@@ -42,7 +50,7 @@ const Services = () => {
         </div>
         </div>
 
-    </div>
+    </motion.div>
     </div>
     </>
   )

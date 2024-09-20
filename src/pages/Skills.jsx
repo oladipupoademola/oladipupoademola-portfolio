@@ -10,7 +10,7 @@ const Skills = () => {
     <div className='bg-[#00030C]'>
     <div className="pt-52 container mx-auto overflow-hidden">
             <h1 class="text-[#F9F9F9] text-5xl tablet:text-6xl laptop:text-6xl font-bold text-center">Skills</h1>
-            <marquee width="100%" scrollamount="10" behavior="alternate" direction="right" transition="4s">
+            <marquee width="100%" scrollamount="10" behavior="alternate" direction="right" transition="2s">
             <div className="flex justify-evenly mt-20">
                 <div>
                 <img className='h-20' src= {img1} alt="" />

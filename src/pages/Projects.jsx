@@ -6,7 +6,7 @@ const Projects = () => {
     const img3 = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717601989/Frame_5_lfapbf.png" 
   return (
     <>
-    <div className='bg-[#00030C]'>
+    <div className='bg-[#00030C] h-full'>
     <div className=" container mx-auto">
         <div className="  ">
             <div>
@@ -16,7 +16,7 @@ const Projects = () => {
                 <div>
                    
                     <h2 className="text-[#F9F9F9] mt-20 text-4xl font-semibold ">UI/UX Design</h2>
-                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[300px] tablet:w-[290px] laptop:w-[450px]">Developing user-centered designs that enhance usability and satisfaction thorough research, user testing, and iterative design processes to create products that meet users' needs and exceed their expectations. </p>
+                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[90%] tablet:w-[290px] laptop:w-[450px]">Developing user-centered designs that enhance usability and satisfaction thorough research, user testing, and iterative design processes to create products that meet users' needs and exceed their expectations. </p>
                     <button className="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-12 border border-solid border-red-500 ">View Projects</button>
                 </div>
                 <div>
@@ -35,7 +35,7 @@ const Projects = () => {
                 <div>
                    
                     <h2 className="text-[#F9F9F9] mt-20 text-4xl font-semibold ">Web Design</h2>
-                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[300px] tablet:w-[290px] laptop:w-[450px]">Creating modern, responsive, and user-friendly websites and web applications. I specialize in building platforms that provide an optimal user experience across all devices. </p>
+                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[90%] tablet:w-[290px] laptop:w-[450px]">Creating modern, responsive, and user-friendly websites and web applications. I specialize in building platforms that provide an optimal user experience across all devices. </p>
                     <button className="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-12 border border-solid border-red-500 ">View Projects</button>
                 </div>
                 <div>
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div>
                    
                     <h2 className="text-[#F9F9F9] mt-20 text-4xl font-semibold ">Mobile App Design</h2>
-                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[300px] tablet:w-[290px] laptop:w-[450px]">Design and development of high-performance mobile applications for iOS and Android. I transform your ideas into engaging and functional mobile experiences. </p>
+                    <p className="text-[#F9F9F9] mt-12  tablet:text-2xl laptop:text-2xl w-[90%] tablet:w-[290px] laptop:w-[450px]">Design and development of high-performance mobile applications for iOS and Android. I transform your ideas into engaging and functional mobile experiences. </p>
                     <button className="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-12 border border-solid border-red-500 ">View Projects</button>
                 </div>
                 <div>
