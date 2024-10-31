@@ -4,9 +4,9 @@ import { fadeIn } from '../variants'
 
 
 const Services = () => {
-    const img1 = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717598229/Group_2_q8smx4.png"
-    const img2 = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717598229/Group_3_e7ygtw.png"
-    const img3 = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717598229/Group_4_slc5xa.png"
+    const img1 = "https://res.cloudinary.com/oladipupoademola/image/upload/v1717598229/Group_2_q8smx4.png"
+    const img2 = "https://res.cloudinary.com/oladipupoademola/image/upload/v1717598229/Group_3_e7ygtw.png"
+    const img3 = "https://res.cloudinary.com/oladipupoademola/image/upload/v1717598229/Group_4_slc5xa.png"
   return (
     
     <>
@@ -31,8 +31,8 @@ const Services = () => {
         <div className="flex justify-center tablet:mt-[0px] laptop:mt-[0px] mt-[100px]">
         <div>
             <img src={img2} alt="" />
-            <h2 class="text-[#F9F9F9] font-semibold text-center">Mobile App Design</h2>
-            <p class="text-[#F9F9F9] text-center">Design and development of <br /> high-performance mobile <br /> applications for iOS and Android. </p>
+            <h2 className="text-[#F9F9F9] font-semibold text-center">Mobile App Design</h2>
+            <p className="text-[#F9F9F9] text-center">Design and development of <br /> high-performance mobile <br /> applications for iOS and Android. </p>
 
 
                 </div>

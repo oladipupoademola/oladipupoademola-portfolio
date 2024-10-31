@@ -4,9 +4,9 @@ const About = () => {
   return (
     <>
     <div className='bg-[#00030C]'>
-    <div class="pt-20 tablet:pt-48 laptop:pt-5 container mx-auto overflow-hidden ">
-        <h1 class="text-[#F9F9F9] text-5xl tablet:text-6xl laptop:text-6xl font-bold text-center ">About Me</h1>
-        <p class="text-[#F9F9F9] mt-10 mx-[10%] tablet:mx-[0%] laptop:mx-[9%]">My name is Ademola also known as DML
+    <div className="pt-20 tablet:pt-48 laptop:pt-5 container mx-auto overflow-hidden ">
+        <h1 className="text-[#F9F9F9] text-5xl tablet:text-6xl laptop:text-6xl font-bold text-center ">About Me</h1>
+        <p className="text-[#F9F9F9] mt-10 mx-[10%] tablet:mx-[0%] laptop:mx-[9%]">My name is Ademola also known as DML
             I am a passionate UX/UI designer with a focus on creating seamless and visually compelling user experiences. Armed with a strong foundation in design principles and user-centric thinking, I bring creativity and technical expertise to every project. 
             
             Driven by a relentless pursuit of excellence, I leverage my skills in user research, wireframing, prototyping, and visual design to transform complex concepts into intuitive and engaging interfaces. My design approach combines aesthetics with functionality, ensuring that each project not only looks stunning but also enhances the overall user journey.

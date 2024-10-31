@@ -2,7 +2,7 @@ import React from 'react'
 import { FaBars } from "react-icons/fa6";
 
 const Home = () => {
-    const profileImg = "https://res.cloudinary.com/dnxovvjcz/image/upload/v1717764637/Group_5_x04dql.png"
+    const profileImg = "https://res.cloudinary.com/oladipupoademola/image/upload/v1717590372/prof-2_vx0fbt.png"
   return (
     <>
     
@@ -12,7 +12,7 @@ const Home = () => {
     <div className="relative overflow-hidden ">  
     <nav className=" tablet:flex tablet:justify-start laptop:flex justify-between z-50 bg-transparent">
         <ul className="text-[#888888] tablet:flex tablet:justify-evenly  laptop:flex laptop:justify-around mx-[9%]  gap-6 p-5 text-2xl hidden ">
-            <li class="text-[#F9F9F9] font-bold"><a href="">Home</a></li>
+            <li className="text-[#F9F9F9] font-bold"><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Contact Me</a></li>
@@ -55,7 +55,7 @@ const Home = () => {
 
             
 
-        <div className="absolute -top-[20px] -right-[870px] tablet:-top-[50px] tablet:-right-[750px] laptop:-top-[180px] laptop:-right-[500px] laptop:z-50 tablet:z-50 z-40  ">
+        <div className="absolute -top-[20px] -right-[870px] tablet:-top-[50px] tablet:-right-[750px] laptop:-top-[150px] laptop:-right-[500px] laptop:z-50 tablet:z-50 z-40  ">
 
             <img className='w-[30%] tablet:w-[40%] laptop:w-[70%]' src={profileImg} alt="" />
         </div>
