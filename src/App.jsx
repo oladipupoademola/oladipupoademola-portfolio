@@ -5,11 +5,13 @@ import Services from "./pages/Services";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Webdesign from "./pages/Webdesign";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
       <Routes>
+        {/* Main landing page */}
         <Route
           path="/"
           element={
@@ -21,7 +23,14 @@ function App() {
             </>
           }
         />
+
+        {/* Dedicated routes for navigation */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/webdesign" element={<Webdesign />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
